@@ -1,0 +1,4 @@
+# Gzip request 
+curl -v -s --data-binary @body.json.gz -H "Content-Type: application/json" -H "Content-Encoding: gzip"  -X POST https://abc.com
+
+
